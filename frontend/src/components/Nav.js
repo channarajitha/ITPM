@@ -19,7 +19,7 @@ function Nav() {
                 <a className="nav-link" href="/a"> </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/cus">Home</a>
+                <a className="nav-link active" aria-current="page" href="/cus">Pandemic & stff Details</a>
               </li>
             </ul>
           </div>
