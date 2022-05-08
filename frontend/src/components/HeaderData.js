@@ -15,7 +15,7 @@ export const  HeaderData =  [
     
     {
         title: "Administration ",
-        icon:<InsertChartIcon/>,
+        
         link: "/allsup",
 
     },
@@ -24,28 +24,28 @@ export const  HeaderData =  [
    
     {
         title: "Pandemic Management",
-        icon:<TrendingUpIcon/>,
+        
         link:"/all"
 
     },
     
     {
         title: "User Management",
-        icon:<LocalShippingIcon/>,
+        
         link:"/allret"
 
     },
     
     {
         title: "Leave Management",
-        icon:<SupervisedUserCircleIcon/>,
+       
         link:"/"
 
     },
    
     {
         title: "Attendance Management",
-        icon:<AirplanemodeActiveIcon/>,
+       
         link:"/allemp"
 
     },
