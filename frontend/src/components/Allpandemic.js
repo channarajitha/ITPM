@@ -116,7 +116,7 @@ const generatePDF = tickets => {
           setsearchTerm(e.target.value);
       }}/>
    <br></br>
-   <div>  <button type="text" class="btnq btnq--skew btnq-default"><Link to="/add" className="nav-link">Add Pandemic Details</Link></button></div>
+   <div>  <button type="text" class="btnq btnq--skew btnq-default"><Link to="/add" className="nav-link">Add Pandemic & Staff Details</Link></button></div>
    <br></br>
    
    <button type="text" class="btnq btnq--skew btnq-default">  Pandemics Count : {pandemic.length} </button>
