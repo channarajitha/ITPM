@@ -184,32 +184,32 @@ export default class EditPandemic extends Component {
 
             <div class="mb-3">
             <label> Date: </label> 
-            <input type = "text"className = "form-control " value = { this.state.date } required onChange = { this.onChangearea }/> 
+            <input type = "text"className = "form-control " value = { this.state.date }  onChange = { this.onChangearea }/> 
             </div>
 
             <div class="mb-3">
             <label > Status: </label>
-             <input type = "text"className = "form-control" value = { this.state.status }  required onChange = { this.onChangestatus }/>
+             <input type = "text"className = "form-control" value = { this.state.status }   onChange = { this.onChangestatus }/>
               </div>
 
 
               
             <div class="mb-3">
             <label > Description: </label>
-             <input type = "text"className = "form-control" value = { this.state.description } required onChange = { this.onChangedescription }/>
+             <input type = "text"className = "form-control" value = { this.state.description }  onChange = { this.onChangedescription }/>
               </div>
               
 
 
             <div class="mb-3">
             <label > Metron: </label>
-             <input type = "text"className = "form-control" value = { this.state.metron } required onChange = { this.onChangemetron }/>
+             <input type = "text"className = "form-control" value = { this.state.metron }  onChange = { this.onChangemetron }/>
               </div>
 
               
             <div class="mb-3">
             <label > Sister: </label>
-             <input type = "text"className = "form-control" value = { this.state. sister } required onChange = { this.onChangesister }/>
+             <input type = "text"className = "form-control" value = { this.state. sister }  onChange = { this.onChangesister }/>
               </div>
 
 
