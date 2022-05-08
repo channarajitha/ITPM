@@ -32,13 +32,13 @@
 
 }
 .SideBarList #active{
-    background-color: rgb(151, 144, 144);
+    background-color: rgb(167, 147, 147);
 }
 
 
 .SideBarList .row:hover{
     cursor: pointer;
-    background-color: rgb(129, 120, 120);
+    background-color: rgb(124, 119, 119);
 }
 
 .row #icon{
