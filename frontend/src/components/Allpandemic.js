@@ -177,7 +177,7 @@ const generatePDF = tickets => {
 
        <td >
 
-       <button className="button-edit"><Link to={"/edit/"+ f._id} className="nav-link">edit</Link></button>
+       <button className="button-edit"><Link to={"/edit/"+ f._id} className="nav-link">Edit</Link></button>
 
 
 
