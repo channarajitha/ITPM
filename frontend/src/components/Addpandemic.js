@@ -58,7 +58,7 @@ export default function Addpandemic(){
             <form onSubmit={sendData}>
   <div class="mb-3">
     <label for=" pandemictype" class="form-label"> Pandemic Type</label>
-    <input type="string"   class="form-control" id=" pandemictype" required onChange ={(e)=>{
+    <input type="string"   class="form-control" id=" pandemictype"  onChange ={(e)=>{
 
         Setpandemictype(e.target.value);
     }} ></input>
@@ -66,7 +66,7 @@ export default function Addpandemic(){
   </div>
   <div class="mb-3">
     <label for="pandemicname" class="form-label">Pandemic Name</label>
-    <input type="string"  class="form-control" id="pandemicname" required onChange ={(e)=>{
+    <input type="string"  class="form-control" id="pandemicname"  onChange ={(e)=>{
 
     Setpandemicname(e.target.value);
 }}></input>
@@ -74,7 +74,7 @@ export default function Addpandemic(){
   
   <div class="mb-3">
     <label for=" area" class="form-label">Area</label>
-    <input type="string"  class="form-control" id=" area" required onChange ={(e)=>{
+    <input type="string"  class="form-control" id=" area"  onChange ={(e)=>{
 
 Setarea(e.target.value);
 }}></input>
@@ -82,7 +82,7 @@ Setarea(e.target.value);
 
   <div class="mb-3">
     <label for="date" class="form-label">Date</label>
-    <input type="date"  class="form-control" id="date" required onChange ={(e)=>{
+    <input type="date"  class="form-control" id="date"  onChange ={(e)=>{
 
 Setdate(e.target.value);
 }}></input>
@@ -90,7 +90,7 @@ Setdate(e.target.value);
 
   <div class="mb-3">
     <label for="status" class="form-label">Status</label>
-    <input type="string"  class="form-control" id="status" required onChange ={(e)=>{
+    <input type="string"  class="form-control" id="status"  onChange ={(e)=>{
 
 Setstatus(e.target.value);
 }}></input>
@@ -98,7 +98,7 @@ Setstatus(e.target.value);
 
   <div class="mb-3">
     <label for="description" class="form-label">Description</label>
-    <input type="string"  class="form-control" id="description" required onChange ={(e)=>{
+    <input type="string"  class="form-control" id="description"  onChange ={(e)=>{
 
 Setdescription(e.target.value);
 }}></input>
@@ -106,7 +106,7 @@ Setdescription(e.target.value);
 
   <div class="mb-3">
     <label for=" metron" class="form-label">Metron</label>
-    <input type="string"  class="form-control" id=" metron" required onChange ={(e)=>{
+    <input type="string"  class="form-control" id=" metron"  onChange ={(e)=>{
 
 Setmetron(e.target.value);
 }}></input>
@@ -114,7 +114,7 @@ Setmetron(e.target.value);
 
   <div class="mb-3">
     <label for="sister" class="form-label">Sister</label>
-    <input type="string"  class="form-control" id="sister" required onChange ={(e)=>{
+    <input type="string"  class="form-control" id="sister"  onChange ={(e)=>{
 
 Setsister(e.target.value);
 }}></input>
@@ -123,7 +123,7 @@ Setsister(e.target.value);
 
   <div class="mb-3">
     <label for="nursingofficers" class="form-label">Nursing Officers</label>
-    <input type="string"  class="form-control" id="nursingofficers" required onChange ={(e)=>{
+    <input type="string"  class="form-control" id="nursingofficers"  onChange ={(e)=>{
 
 Setnursingofficers(e.target.value);
 }}></input>
