@@ -142,3 +142,39 @@ const userCtrl = {
             return res.status(500).json({msg: err.message})
         }
     },
+    getUsersAllInfor: async (req, res) => {
+        try {
+            const users = await Users.find().select('-password')
+
+            res.json(users)
+        } catch (err) {
+            return res.status(500).json({msg: err.message})
+        }
+    },
+    logout: async (req, res) => {
+        try {
+            res.clearCookie('refreshtoken', {path: '/user/refresh_token'})
+            return res.json({msg: "Logged out."})
+        } catch (err) {
+            return res.status(500).json({msg: err.message})
+        }
+    },
+    updateUser: async (req, res) => {
+        try {
+            const {name, avatar} = req.body
+            await Users.findOneAndUpdate({_id: req.user.id}, {
+                name, avatar
+            })
+
+            res.json({msg: "Update Success!"})
+        } catch (err) {
+            return res.status(500).json({msg: err.message})
+        }
+    },
+    updateUsersRole: async (req, res) => {
+        try {
+            const {role} = req.body
+
+            await Users.findOneAndUpdate({_id: req.params.id}, {
+                role
+            })
