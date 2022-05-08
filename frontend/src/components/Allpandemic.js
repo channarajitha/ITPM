@@ -47,7 +47,7 @@ export default function AllPandemic(){
     useEffect(() => {
         
         function getPandemics(){
-        axios.get("http://localhost:5000/pandemic/all").then((res) => {
+        axios.get("http://localhost:3000/pandemic/all").then((res) => {
             setPandemics(res.data);
             }
         ).catch((err) => {
