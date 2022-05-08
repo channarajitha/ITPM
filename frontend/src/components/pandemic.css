@@ -1,0 +1,29 @@
+.mb-3{
+    width: 900px;
+    float: right;
+    
+    flex: 50%;
+    top: 20px;
+    border:none;
+}
+.btn-primary{
+    width: 900px;
+    float: right;
+    
+    flex: 50%;
+    top: 20px;
+    border:none;
+   
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    float: top;
+    padding-right: 100px;
+    position:absolute;
+  top: 15px;
+  left: 150px;
+  padding-left: 50px;
+   
+}
