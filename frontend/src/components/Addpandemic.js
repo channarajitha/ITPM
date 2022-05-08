@@ -18,7 +18,7 @@ export default function Addpandemic(){
     function sendData(e){
       swal({
         title: "Scuccess!",
-        text:"Pandemic Details Sccessfully Added",
+        text:"Pandemic & Staff Members Details Sccessfully Added",
         icon:"success",
         button:"OK",
 
