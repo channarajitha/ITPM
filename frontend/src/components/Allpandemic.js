@@ -104,7 +104,7 @@ const generatePDF = tickets => {
    <br></br>
    <div class="head">
                
-               <h3> PANDEMIC MANAGEMENT</h3>
+               <h3> PANDEMIC % STAFF MANAGEMENT</h3>
                
                </div>
                
